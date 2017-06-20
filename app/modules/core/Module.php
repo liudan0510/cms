@@ -31,6 +31,9 @@ class Module extends \yii\base\Module implements BootstrapInterface
             'demo' => [
                 'class' => 'app\modules\demo\Module',
             ],
+            'admin' => [
+                'class' => 'app\modules\admin\Module',
+            ],
         ];
 
         Yii::$app->setModules($modules);

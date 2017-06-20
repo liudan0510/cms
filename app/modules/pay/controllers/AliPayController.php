@@ -15,4 +15,3 @@ class AliPayController extends BASE
     }
 
 }
- 

@@ -2,6 +2,9 @@
 
 namespace app\modules\demo\controllers;
 
+//use app\modules\demo\driver\a;
+use Yii;
+use yii\helpers\Url;
 use yii\web\Controller;
 
 /**
@@ -15,15 +18,18 @@ class DefaultController extends Controller
      */
     public function actionIndex()
     {
-        return \Yii::$app->runAction('demo/default/sss');
+
+        return \Yii::$app->runAction('demo/demo/demo');
+//        return \Yii::$app->runAction('demo/default/sss');
+//
+//        $name = Yii::$app->request->get('id');
+//        $class = '\\app\\modules\\demo\\driver\\'.$name.'Controller';
+//        $app = new $class();
+//        return call_user_func([$app,'api']);
+
     }
 
 
-
-    public function actionSss(){
-        return 'this is actionSss';
-
-    }
 
 
 

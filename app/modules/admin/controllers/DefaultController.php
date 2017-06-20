@@ -15,11 +15,6 @@ class DefaultController extends Admin
 
     public $layout='index.php';
 
-    public function init(){
-        parent::init();
-
-    }
-
     public function actionDemo(){
         return $this->render('demo');
     }
