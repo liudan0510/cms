@@ -31,6 +31,4 @@ class DefaultController extends Controller
 
 
 
-
-
 }
